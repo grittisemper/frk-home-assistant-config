@@ -8,7 +8,12 @@
     "ha",
     "home_assistant",
     "lovelace",
-    "darksky",
+    "darksky"
   ],
+
+  "engines": {
+    "node": ">=0.10.0"
+  },
+
   "license": "MIT"
 }
