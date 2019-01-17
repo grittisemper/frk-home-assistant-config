@@ -1,0 +1,14 @@
+{
+  "name": "com.ha.frk.lovelace.darkskyweather",
+  "displayName": "Home Assistant Forked Component Lovelace Dark Sky Weather Card",
+  "version": "x.0.0",
+  "description": "",
+
+  "keywords": [
+    "ha",
+    "home_assistant",
+    "lovelace",
+    "darksky",
+  ],
+  "license": "MIT"
+}
