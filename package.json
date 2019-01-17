@@ -11,6 +11,11 @@
     "darksky"
   ],
 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grittisemper/frk-home-assistant-config.git"
+  },
+
   "engines": {
     "node": ">=0.10.0"
   },
