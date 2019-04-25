@@ -1,3 +1,46 @@
+# 0.10.2
+  - updated LitElement source object to "home-assistant-main" as "hui-error-entity-row" is being removed in HA 0.88 update.
+  
+# 0.10.1
+  - Added da locale translations
+  - Added alt_* config entries.  These allow complete remapping of slot data to what ever format desired by using a template sensor.
+  
+# 0.9.4
+ - Modified card refresh logic to allow an interval between card refreshes.  This should help lower cpu powered devices to not be overwhelmed by multiple hass changes / sec.
+ - Added refresh_interval flag to config. Can be used to specify the number of seconds between card value refreshes. Defaults to 30.
+ - (VirtualL) Modified card to allow RTL languages
+ - (VirtualL) Added Hebrew language
+ 
+# 0.9.3
+ - Corrected issue where an extra UOM would show on the forecast daily temps
+ 
+# 0.9.2
+ - Corrected issue with Forecast day name not updating with hass state changes.
+ 
+# 0.9.1
+ - Card now updates all values on hass state changes
+ - style getter is now a function as per suggestion from @thomasloven.  This may help with using card modder with this card.
+ 
+# 0.8.3
+ - Polish text added : @bieniu
+ - Adjusted temperature top-margin due to changes in HA v 86.x
+ - Corrected windy-variant icon mapping
+ 
+# 0.8.2
+ - Fixed UOM for POP Intensity
+ 
+# 0.8.1
+ - Added slots for current conditions.  Allows setting specific locations for individual conditions.
+ - Added optional separator bar near top of card.
+ - Added optional probability of precipitation (pop) intensity
+ 
+# 0.7.1
+ - Added several flags to control the positioning of components in the card
+ 
+# 0.6.3
+- Changed to local LitElement and html classes by using existing Lovelace class reference.
+- Allow text (ESE, N, etc) wind bearing sensor to be passed in as well as normal numeric degree
+
 # 0.6.2
 - Changed URL reference for Lit and html classes
 
